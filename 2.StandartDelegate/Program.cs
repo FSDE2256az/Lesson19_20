@@ -87,9 +87,48 @@ public class Program
         // Action / Predicate / Func => heresine aid 3 numune yazirsiz
         // 1. Funk
         // 2. Anonymous
-         // 3. Lamb
+        // 3. Lamb
 
+        // #region Action
+        // Example1();
+        // #endregion
 
+        #region Predicate
+
+        // int[] numArr = { 5, 10, 12, 34 };
+        // Predicate<int> pred = null!;
+        // pred += Example2;
+        // 
+        // pred += delegate (int number)
+        // {
+        //     return number % 3 == 0;
+        // };
+        // 
+        // pred += (int number) => number % 5 == 0;
+        // 
+        // Console.WriteLine(pred.Invoke(numArr[0]));
+        #endregion
+
+        #region Funktor
+
+        // Func<string, string> funk = null!;
+        // funk += Example3;
+        //
+        // funk += delegate (string str)
+        // {
+        //     return str.ToLower();
+        // };
+        //
+        // funk += (string str) => str.ToUpper();
+        // Console.WriteLine(funk.Invoke("There is a message"));
+
+        #endregion
 
     }
+
+    static void Example1() => Console.WriteLine("Example 1");
+    static bool Example2(int num) => num % 5 == 0;
+    static string Example3(string txt) => $"Text: {txt}";
+
+
 }
