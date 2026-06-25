@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventExample", "EventExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.StandartDelegate", "2.StandartDelegate\2.StandartDelegate.csproj", "{A140F0F7-9F4C-4824-9480-178247493F60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ExtentionMethod", "3.ExtentionMethod\3.ExtentionMethod.csproj", "{03F4FE7D-CDE9-455F-9A41-C8A07E864E2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A140F0F7-9F4C-4824-9480-178247493F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A140F0F7-9F4C-4824-9480-178247493F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A140F0F7-9F4C-4824-9480-178247493F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F4FE7D-CDE9-455F-9A41-C8A07E864E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F4FE7D-CDE9-455F-9A41-C8A07E864E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F4FE7D-CDE9-455F-9A41-C8A07E864E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F4FE7D-CDE9-455F-9A41-C8A07E864E2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
