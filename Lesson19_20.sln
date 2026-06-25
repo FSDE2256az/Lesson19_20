@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Event", "Lesson19_20\1.Event.csproj", "{A83C835B-F8FE-4E1C-938C-BE16D8806EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventExample", "EventExample\EventExample.csproj", "{65BF6217-AC70-4F7E-90C5-291FE805572F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A83C835B-F8FE-4E1C-938C-BE16D8806EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83C835B-F8FE-4E1C-938C-BE16D8806EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83C835B-F8FE-4E1C-938C-BE16D8806EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83C835B-F8FE-4E1C-938C-BE16D8806EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BF6217-AC70-4F7E-90C5-291FE805572F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BF6217-AC70-4F7E-90C5-291FE805572F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BF6217-AC70-4F7E-90C5-291FE805572F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BF6217-AC70-4F7E-90C5-291FE805572F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47966CD0-D870-4798-BABD-DB118410BD8F}
+	EndGlobalSection
+EndGlobal
