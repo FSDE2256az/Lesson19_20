@@ -57,12 +57,8 @@ internal class Program
         var button = new Button();
 
         button.MouseEnter += Button_MouseEnter;
-
         button.MouseDoubleClick += Button_MouseDoubleClick;
-
         button.SizeChanged += Button_SizeChanged;
-
-
 
         button.StartMouseEvents();
         button.StartSizeEvents();
